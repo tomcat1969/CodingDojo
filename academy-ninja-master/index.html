@@ -5,25 +5,38 @@
     </div>
     <script type="text/javascript">
 	    var leftValue = 450, topValue = 100;
+	    var direction = 'down';
+        var pic = '1.png';
 
     	function update(){
     		document.getElementById("character").style.left = leftValue+"px";
     		document.getElementById("character").style.top = topValue+"px";
+
+
+    		 pic =  pic == '1.png' ? '2.png' : '1.png';
+
+    		document.getElementById("character").style.backgroundImage = "url('img/" + direction + pic +"')";
+
     	}
 
     	document.onkeydown = function(e){
     		console.log(e);
     		if(e.keyCode == 37 && leftValue >= 0) { // LEFT
     			leftValue = leftValue - 10;
+    			direction = 'left';
     		}
     		else if (e.keyCode == 39 && leftValue <= 500 ) { // RIGHT
-    			leftValue = leftValue + 10;    		
+    			leftValue = leftValue + 10;
+    			direction = 'right';
     		}
     		else if (e.keyCode == 40 && topValue <= 500) { // DOWN
 				topValue = topValue + 10;
+				direction = 'down';
     		}
     		else if(e.keyCode == 38 && topValue >= 0) { // up
     		    topValue = topValue - 10;
+    		    direction = 'top';
+
             }
     		// ...
     		update();
