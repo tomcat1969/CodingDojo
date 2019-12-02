@@ -1,7 +1,8 @@
 var world = [];
 var worldScale = 16;
+var lifes = 3;
 function r() {   // generate a random number 0 1 2 3
-    return Math.floor(Math.random() * 10 );
+    return Math.floor(Math.random() * 4 );
 }
 for(var i = 0; i < worldScale; i++) {
     world[i] = []
@@ -20,13 +21,7 @@ var worldDict = {
     0:'blank',
     1:'wall',
     2:'sushi',
-    3:'onigiri',
-    4:'sushi',
-    5:'blank',
-    6:'blank',
-    7:'blank',
-    8:'blank',
-    9:'blank'
+    3:'onigiri'
 }
 
 var scores = 0
@@ -56,12 +51,80 @@ var ninjaman = {
     y:1
 }
 
+
+var scaredy = {
+    x:worldScale - 2,
+    y:worldScale - 2
+}
+
+
+
+
+
+
 function drawNinjaman() {
     document.getElementById('ninjaman').style.top = ninjaman.y * 40 + 'px'
     document.getElementById('ninjaman').style.left = ninjaman.x * 40 + 'px'
 }
 
+function drawScaredy() {
+    document.getElementById('scaredy').style.top = scaredy.y * 40 + 'px'
+    document.getElementById('scaredy').style.left = scaredy.x * 40 + 'px'
+}
+
 drawNinjaman()
+drawScaredy()
+
+function ghostHit() {
+    if(ninjaman.x == scaredy.x && ninjaman.y == scaredy.y) {
+        return true;
+    }
+}
+
+function changeDirection() {
+    var direction = Math.floor(Math.random() * 4 )
+    console.log(direction)
+    if(direction == 0) {
+        goleft();
+    }else if(direction == 1) {
+        goright();
+    }else if(direction == 2) {
+        goup();
+    }else if(direction == 3) {
+        godown();
+    }
+    drawScaredy();
+    if(ghostHit()) {
+        lifes--;
+    }
+    if(lifes == 0) {
+        alert("game over")
+    }
+    console.log("lifes is ",lifes)
+}
+
+function goleft() {
+    if(world[scaredy.y][scaredy.x - 1] != 1) {
+        scaredy.x--;
+    }
+}
+function goright() {
+    if(world[scaredy.y][scaredy.x + 1] != 1) {
+        scaredy.x++;
+    }
+}
+function goup() {
+    if(world[scaredy.y - 1][scaredy.x] != 1) {
+        scaredy.y--;
+    }
+}
+function godown() {
+    if(world[scaredy.y + 1][scaredy.x] != 1) {
+        scaredy.y++;
+    }
+}
+
+setInterval(changeDirection, 100)
 
 document.onkeydown = function(e){
 
