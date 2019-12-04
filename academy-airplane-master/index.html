@@ -29,16 +29,21 @@
 			width: 70px;
 			height: 75px;
 		}
+		.missile {
+			position:absolute;
+			width: 3px;
+			height: 10px;
+			background-color: red;
+		}
 
 
 
 	</style>
 	<div id="ocean">
-		<div id="players">
-			<div class="player"></div>
-		</div>
-		<div id="enemies">
-			<div class="enemy"></div>
+		<div id="players"></div>
+		<div id="enemies"></div>
+		<div id="missiles">
+			<!--<div class="missile" style="left:10px; top:10px"></div> -->
 		</div>
 
 	</div>
@@ -60,6 +65,8 @@
 			{left:380,top:400}
 		]
 
+		var missiles =[]
+
 		function drawPlayer() {
 
 			content = "<div class = 'player' style = 'left:"+player.left+"px; top: " + player.top + "px'></div>"
@@ -76,8 +83,30 @@
 			document.getElementById("enemies").innerHTML = content
 		}
 
+		function drawMissiles(){
+			content = ""
+			for(var idx=0; idx < missiles.length; idx++) {
+				content += "<div class='missile' style='left:"+ missiles[idx].left +"px; top:"+missiles[idx].top+"px'></div>"
+			}
+			document.getElementById("missiles").innerHTML = content
+
+
+		}
+
 		drawEnemies()
 
+		function moveEnemies() {
+			for (var idx = 0; idx < enemies.length; idx++) {
+
+				enemies[idx].top = enemies[idx].top % 700+ 20
+			}
+		}
+
+		function moveMissiles() {
+			for(var idx=0; idx < missiles.length; idx++) {
+				missiles[idx].top -= 10
+			}
+		}
 
 
 		document.onkeydown = function (e) {
@@ -94,9 +123,26 @@
 			if(e.keyCode == 40 && player.top + 10 + 75 < 700) { //down
 				player.top += 10
 			}
+			if(e.keyCode == 32) {
+				missiles.push({left:(player.left + 34),top: (player.top - 8)})
+				//drawMissiles()
+			}
+			console.log(missiles)
 			drawPlayer()
 		}
 
+
+		function gameLoop() {
+			console.log("gameloop is running")
+			setTimeout(gameLoop,1000)
+			//drawPlayer()
+			moveEnemies()
+			moveMissiles()
+			drawEnemies()
+			drawMissiles()
+		}
+
+		gameLoop()
 	</script>
 </body>
 </html>
