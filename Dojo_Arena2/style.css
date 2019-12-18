@@ -1,0 +1,45 @@
+.arena{
+    width: 970px;
+    height: 550px;
+    border: 5px gray solid;
+    margin: 100px auto;
+    background-color: black;
+}
+
+.arena .arenaMenu{
+    width: 200px;
+    height: 140px;
+    border: 3px gray solid;
+    background-color: #929395;
+    margin: 140px 5px 5px 360px;
+    padding: 20px 5px 5px 10px;
+
+}
+
+.arenaMenu button{
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+
+.playerMenu{
+    width: 200px;
+    height: 140px;
+    border: 3px gray solid;
+    background-color: #929395;
+    margin: 140px 5px 5px 360px;
+    padding: 20px 5px 5px 10px;
+
+}
+.arena  img{
+    width: 110px;
+    height: 230px;
+}
+
+.arena .player1{
+    margin: 0px 0px 0px 160px;
+}
+.arena .player2{
+    margin:0px 0px 0px 400px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Dojo Arena</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+        $(function () {
+            $('.playerMenu').hide()
+            $('.player1').hide()
+            $('.player2').hide()
+
+            $('.arenaMenu button').mouseover(function () {
+                var imageUrl = $(this).attr('name') + ".jpg"
+                console.log(imageUrl)
+                $('.arena').css("background-image", "url(" + imageUrl + ")")
+            })
+                .click(function () {
+                    $('.arenaMenu').remove()
+                    $('.playerMenu').show()
+
+                })
+
+            $('.playerMenu .leftPlayer').change(function () {
+
+                var player1_url = $(this).val() + ".png"
+                console.log(player1_url)
+                $('.player1').show()
+                $('.arena .player1').attr("src",player1_url)
+                //$('.arena').append(`<img src='`+player_url+`'/>` )
+            })
+
+            $('.playerMenu .rightPlayer').change(function () {
+
+                var player2_url = $(this).val() + ".png"
+                console.log(player2_url)
+                $('.player2').show()
+                $('.arena .player2').attr("src",player2_url)
+                //$('.arena').append(`<img src='`+player_url+`'/>` )
+            })
+
+        })
+    </script>
+</head>
+<body>
+<div class="arena">
+        <div class="arenaMenu">
+            <h2>Select Arena</h2>
+            <button name = "beach">beach</button>
+            <button name = "planet">planet</button>
+            <button name = "dojo">dojo</button>
+            <button name = "forest">forest</button>
+            <button name = "matrix">matrix</button>
+            <button name = "snow">snow</button>
+        </div>
+        <div class="playerMenu">
+            <h2>Select player</h2>
+            <select class="leftPlayer">
+                <option value="donny">donny</option>
+                <option value="leo">leo</option>
+                <option value="mikey">mikey</option>
+                <option value="raphael">raphael</option>
+            </select>
+            <select class="rightPlayer">
+                <option value="donny">donny</option>
+                <option value="leo">leo</option>
+                <option value="mikey">mikey</option>
+                <option value="raphael">raphael</option>
+            </select>
+
+        </div>
+        <img class="player1" alt="player1">
+        <img class="player2" alt="player2">
+
+    </div>
+
+
+</body>
+</html>
