@@ -7,13 +7,22 @@
     <title>Jquery Demo</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <style>
-        .wraper {
-
-            width: 520px;
-            height: 210px;
+        ul{
+            list-style: none;
+            overflow: hidden;
             margin: 200px auto;
+            width: 490px;
+            height: 255px;
 
         }
+        ul li{
+            float: left;
+            width: 108px;
+            height: 115px;
+            border: 2px solid black;
+            margin: 5px 5px 5px 5px;
+        }
+
         .wraper img{
             width: 103px;
             height: 108px;
@@ -28,57 +37,40 @@
         }
     </style>
     <script type="text/javascript">
-        $(document).ready(function(){
-            var images = $('.wraper img')
+        $(function () {
+            $('ul img').click(function () {
+                 $(this).hide()
+            })
 
 
-            $('#img0').click(function () {
-                $('#img0').hide()
-            })
-            $('#img1').click(function () {
-                $('#img1').hide()
-            })
-            $('#img2').click(function () {
-                $('#img2').hide()
-            })
-            $('#img3').click(function () {
-                $('#img3').hide()
-            })
-            $('#img4').click(function () {
-                $('#img4').hide()
-            })
-            $('#img5').click(function () {
-                $('#img5').hide()
-            })
-            $('#img6').click(function () {
-                $('#img6').hide()
-            })
-            $('#img7').click(function () {
-                $('#img7').hide()
+            $('button').click(function () {
+                $('ul img').show()
             })
 
 
 
-
-
-
-            $('button').bind("click",function(){
-                images.show()
-            })
         })
+
+
+
+
+
     </script>
 </head>
 <body>
-    <div class="wraper">
-        <img src="ninjia.png" alt="nin jia" id="img0"/>
-        <img src="ninjia.png" alt="nin jia" id="img1"/>
-        <img src="ninjia.png" alt="nin jia" id="img2"/>
-        <img src="ninjia.png" alt="nin jia" id="img3"/>
-        <img src="ninjia.png" alt="nin jia" id="img4"/>
-        <img src="ninjia.png" alt="nin jia" id="img5"/>
-        <img src="ninjia.png" alt="nin jia" id="img6"/>
-        <img src="ninjia.png" alt="nin jia" id="img7"/>
-    </div>
+
+
+
+    <ul>
+        <li> <img src="ninjia.png" alt="nin jia" /></li>
+        <li> <img src="ninjia.png" alt="nin jia" /></li>
+        <li> <img src="ninjia.png" alt="nin jia" /></li>
+        <li> <img src="ninjia.png" alt="nin jia" /></li>
+        <li> <img src="ninjia.png" alt="nin jia" /></li>
+        <li> <img src="ninjia.png" alt="nin jia" /></li>
+        <li> <img src="ninjia.png" alt="nin jia" /></li>
+        <li> <img src="ninjia.png" alt="nin jia" /></li>
+    </ul>
     <button>restore</button>
 
 
