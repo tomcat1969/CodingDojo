@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b00c1cc2-7da0-414f-a322-20c184852bae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/About Python.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../internet/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../internet/.idea/internet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../internet/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../internet/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../internet/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavascriptBasics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavascriptBasics/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Plotting Your Blocks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Plotting Your Blocks/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../html/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../html/.idea/workspace.xml" afterDir="false" />
@@ -56,7 +59,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576106432263</updated>
-      <workItem from="1576106433547" duration="11723000" />
+      <workItem from="1576106433547" duration="12087000" />
+      <workItem from="1576188196633" duration="1638000" />
     </task>
     <servers />
   </component>

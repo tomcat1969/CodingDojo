@@ -30,10 +30,9 @@
     width: 240px;
     height: 63px;
     background-color: #343434;
-    float: right;
-    position: relative;
-    left: 168px;
-    top:37px;
+
+    display: inline-block;
+    vertical-align: 100px;
     border-radius: 15px;
 
 }
@@ -73,12 +72,14 @@
     margin: 5px 0px 0px 30px;
 }
 
-.nav_vertical{
+.bluePart .nav_vertical{
     background-color: #244060;
     position: relative;
     top: 30px;
     left: 110px;
     align-content: center;
+
+
 
 
 }

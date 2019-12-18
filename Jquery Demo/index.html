@@ -39,12 +39,20 @@
     <script type="text/javascript">
         $(function () {
             $('ul img').click(function () {
-                 $(this).hide()
+                 $(this).hide("slow","swing")
             })
+
+            // $('ul img').toggle(function () {
+            //     $(this).hide("slow","swing")
+            // },function () {
+            //     $(this).show("slow","swing")
+            // })
+
+
 
 
             $('button').click(function () {
-                $('ul img').show()
+                $('ul img').show("slow","swing")
             })
 
 
