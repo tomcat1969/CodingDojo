@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pokemon2</title>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <style>
+        .left{
+            width: 800px;
+            height: 1230px;
+            overflow: hidden;
+            list-style: none;
+            border: 1px solid black;
+            float: left;
+            margin: 20px 5px 5px 50px;
+        }
+        .left li{
+            float: left;
+            width: 80px;
+            height: 80px;
+        }
+        .right{
+            width: 200px;
+            height: 600px;
+            border: 3px red solid;
+            float: left;
+            margin: 20px 5px 5px 10px;
+            list-style: none;
+        }
+        .right li{
+            width: 150px;
+            height: 80px;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+  <ul class="left">
+
+  </ul>
+
+  <ul class="right">
+      <li><img class= "profile" src="http://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/0.png" alt="icon"></li>
+      <li class="pokeName"></li>
+      <li class="pokeType"> </li>
+      <li class="height"></li>
+      <li class="weight"></li>
+
+
+  </ul>
+
+<script>
+    $(document).ready(function () {
+        for(var i = 0; i < 100; i++){
+            $('.left').append(`<li><img id ="`+ i +
+                            `" src="http://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/` +
+                                                             i + `.png"></li>`)
+        }
+        $('.left li img').click(function () {
+           var id =  $(this).attr("id")
+            var ajax_url = "https://pokeapi.co/api/v2/pokemon/" +id+"/"
+           // alert(ajax_url)
+            $.get(ajax_url,function (res) {
+                     console.log(res)
+                    // alert(res.name)
+                    var htmlStr = "http://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/"+id+".png"
+                     // htmlStr += "<li>"+ res.name+"</li>"
+                     // htmlStr += "<li>Types : "+ res.type+"</li>"
+                     // htmlStr += "<li>Height :"+ res.height+"</li>"
+                     // htmlStr += "<li>Weight :"+ res.weight+"</li>"
+                $('.profile').attr("src",htmlStr)
+                $('.pokeName').html(res.name)
+                $('.pokeType').html("<h3>Type :</h3>" + res.types[0].type.name)
+                $('.height').html("<h3>Height :</h3>" + res.height)
+                $('.weight').html("<h3>Weight :</h3>" +res.weight)
+
+            },"json")
+
+        })
+    })
+</script>
+
+</body>
+</html>
