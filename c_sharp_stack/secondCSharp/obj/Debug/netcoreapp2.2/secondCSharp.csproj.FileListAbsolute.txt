@@ -1,0 +1,11 @@
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/secondCSharp/bin/Debug/netcoreapp2.2/secondCSharp.deps.json
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/secondCSharp/bin/Debug/netcoreapp2.2/secondCSharp.runtimeconfig.json
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/secondCSharp/bin/Debug/netcoreapp2.2/secondCSharp.runtimeconfig.dev.json
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/secondCSharp/bin/Debug/netcoreapp2.2/secondCSharp.dll
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/secondCSharp/bin/Debug/netcoreapp2.2/secondCSharp.pdb
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/secondCSharp/obj/Debug/netcoreapp2.2/secondCSharp.csprojAssemblyReference.cache
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/secondCSharp/obj/Debug/netcoreapp2.2/secondCSharp.csproj.CoreCompileInputs.cache
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/secondCSharp/obj/Debug/netcoreapp2.2/secondCSharp.AssemblyInfoInputs.cache
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/secondCSharp/obj/Debug/netcoreapp2.2/secondCSharp.AssemblyInfo.cs
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/secondCSharp/obj/Debug/netcoreapp2.2/secondCSharp.dll
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/secondCSharp/obj/Debug/netcoreapp2.2/secondCSharp.pdb
