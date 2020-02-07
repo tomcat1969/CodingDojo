@@ -1,0 +1,14 @@
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Portfolio/bin/Debug/netcoreapp2.2/Portfolio.deps.json
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Portfolio/bin/Debug/netcoreapp2.2/Portfolio.runtimeconfig.json
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Portfolio/bin/Debug/netcoreapp2.2/Portfolio.runtimeconfig.dev.json
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Portfolio/bin/Debug/netcoreapp2.2/Portfolio.dll
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Portfolio/bin/Debug/netcoreapp2.2/Portfolio.pdb
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Portfolio/obj/Debug/netcoreapp2.2/Portfolio.csprojAssemblyReference.cache
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Portfolio/obj/Debug/netcoreapp2.2/Portfolio.csproj.CoreCompileInputs.cache
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Portfolio/obj/Debug/netcoreapp2.2/Portfolio.RazorAssemblyInfo.cache
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Portfolio/obj/Debug/netcoreapp2.2/Portfolio.RazorAssemblyInfo.cs
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Portfolio/obj/Debug/netcoreapp2.2/Portfolio.AssemblyInfoInputs.cache
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Portfolio/obj/Debug/netcoreapp2.2/Portfolio.AssemblyInfo.cs
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Portfolio/obj/Debug/netcoreapp2.2/Portfolio.RazorTargetAssemblyInfo.cache
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Portfolio/obj/Debug/netcoreapp2.2/Portfolio.dll
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Portfolio/obj/Debug/netcoreapp2.2/Portfolio.pdb
