@@ -11,9 +11,11 @@ namespace web1
         
         [HttpGet("")]
 
-        public string Index()
+        public ViewResult HiThere()
         {
-            return "hello from controller";
+            //Views/Home/HiThere.cshtml
+            //Views/Shared/HiThere.cshtml
+            return View();
         }
         
 

@@ -12,3 +12,13 @@
 /Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/obj/Debug/netcoreapp2.2/web1.RazorTargetAssemblyInfo.cache
 /Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/obj/Debug/netcoreapp2.2/web1.dll
 /Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/obj/Debug/netcoreapp2.2/web1.pdb
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/bin/Debug/netcoreapp2.2/web1.Views.dll
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/bin/Debug/netcoreapp2.2/web1.Views.pdb
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/obj/Debug/netcoreapp2.2/web1.TagHelpers.input.cache
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/obj/Debug/netcoreapp2.2/web1.TagHelpers.output.cache
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/obj/Debug/netcoreapp2.2/web1.RazorCoreGenerate.cache
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/obj/Debug/netcoreapp2.2/web1.RazorTargetAssemblyInfo.cs
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/obj/Debug/netcoreapp2.2/web1.Views.pdb
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/obj/Debug/netcoreapp2.2/web1.csproj.CopyComplete
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/obj/Debug/netcoreapp2.2/Razor/Views/Home/HiThere111.g.cshtml.cs
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/obj/Debug/netcoreapp2.2/Razor/Views/Shared/HiThere.g.cshtml.cs

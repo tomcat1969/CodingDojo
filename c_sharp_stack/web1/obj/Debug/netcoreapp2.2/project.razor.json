@@ -2959,6 +2959,17 @@
     "CSharpLanguageVersion": 703
   },
   "RootNamespace": "web1",
-  "Documents": [],
+  "Documents": [
+    {
+      "FilePath": "/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/Views/Shared/HiThere.cshtml",
+      "TargetPath": "Views/Shared/HiThere.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/Views/Home/HiThere111.cshtml",
+      "TargetPath": "Views/Home/HiThere111.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.2"
 }
