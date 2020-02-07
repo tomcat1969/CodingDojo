@@ -1,0 +1,14 @@
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/bin/Debug/netcoreapp2.2/web1.deps.json
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/bin/Debug/netcoreapp2.2/web1.runtimeconfig.json
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/bin/Debug/netcoreapp2.2/web1.runtimeconfig.dev.json
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/bin/Debug/netcoreapp2.2/web1.dll
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/bin/Debug/netcoreapp2.2/web1.pdb
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/obj/Debug/netcoreapp2.2/web1.csprojAssemblyReference.cache
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/obj/Debug/netcoreapp2.2/web1.csproj.CoreCompileInputs.cache
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/obj/Debug/netcoreapp2.2/web1.RazorAssemblyInfo.cache
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/obj/Debug/netcoreapp2.2/web1.RazorAssemblyInfo.cs
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/obj/Debug/netcoreapp2.2/web1.AssemblyInfoInputs.cache
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/obj/Debug/netcoreapp2.2/web1.AssemblyInfo.cs
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/obj/Debug/netcoreapp2.2/web1.RazorTargetAssemblyInfo.cache
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/obj/Debug/netcoreapp2.2/web1.dll
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/obj/Debug/netcoreapp2.2/web1.pdb

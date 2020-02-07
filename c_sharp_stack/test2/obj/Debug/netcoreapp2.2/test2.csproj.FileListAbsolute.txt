@@ -1,0 +1,11 @@
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/test2/bin/Debug/netcoreapp2.2/test2.deps.json
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/test2/bin/Debug/netcoreapp2.2/test2.runtimeconfig.json
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/test2/bin/Debug/netcoreapp2.2/test2.runtimeconfig.dev.json
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/test2/bin/Debug/netcoreapp2.2/test2.dll
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/test2/bin/Debug/netcoreapp2.2/test2.pdb
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/test2/obj/Debug/netcoreapp2.2/test2.csprojAssemblyReference.cache
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/test2/obj/Debug/netcoreapp2.2/test2.csproj.CoreCompileInputs.cache
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/test2/obj/Debug/netcoreapp2.2/test2.AssemblyInfoInputs.cache
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/test2/obj/Debug/netcoreapp2.2/test2.AssemblyInfo.cs
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/test2/obj/Debug/netcoreapp2.2/test2.dll
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/test2/obj/Debug/netcoreapp2.2/test2.pdb
