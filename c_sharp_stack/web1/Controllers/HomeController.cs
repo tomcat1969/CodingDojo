@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using System;
 
 
 namespace web1
@@ -9,12 +10,13 @@ namespace web1
         //Requests
         //localhost:5000/
         
-        [HttpGet("")]
+        [HttpGet("users")]
 
-        public ViewResult HiThere()
+        public ViewResult Index()
         {
-            //Views/Home/HiThere.cshtml
-            //Views/Shared/HiThere.cshtml
+            //Views/Home/Index.cshtml
+            //Views/Shared/Index.cshtml
+            ViewBag.Example = "121";
             return View();
         }
         
@@ -23,9 +25,13 @@ namespace web1
         
         [HttpGet("hello")]
 
-        public string Hello()
+        public RedirectToActionResult Hello()
         {
-            return "Hi Again";
+            // return "Hi Again";
+            Console.WriteLine("hello, there , redirecting...");
+            var param = new {username = "tom", location = "Seattle south"};
+            return RedirectToAction("HelloUser",param);
+            
         }
 
 

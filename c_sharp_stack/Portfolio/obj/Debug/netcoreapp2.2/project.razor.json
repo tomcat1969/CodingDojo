@@ -2959,6 +2959,22 @@
     "CSharpLanguageVersion": 703
   },
   "RootNamespace": "Portfolio",
-  "Documents": [],
+  "Documents": [
+    {
+      "FilePath": "/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Portfolio/Views/Home/Projects.cshtml",
+      "TargetPath": "Views/Home/Projects.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Portfolio/Views/Home/Home.cshtml",
+      "TargetPath": "Views/Home/Home.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Portfolio/Views/Home/Contact.cshtml",
+      "TargetPath": "Views/Home/Contact.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.2"
 }

@@ -12,3 +12,14 @@
 /Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Portfolio/obj/Debug/netcoreapp2.2/Portfolio.RazorTargetAssemblyInfo.cache
 /Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Portfolio/obj/Debug/netcoreapp2.2/Portfolio.dll
 /Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Portfolio/obj/Debug/netcoreapp2.2/Portfolio.pdb
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Portfolio/bin/Debug/netcoreapp2.2/Portfolio.Views.dll
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Portfolio/bin/Debug/netcoreapp2.2/Portfolio.Views.pdb
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Portfolio/obj/Debug/netcoreapp2.2/Portfolio.TagHelpers.input.cache
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Portfolio/obj/Debug/netcoreapp2.2/Portfolio.TagHelpers.output.cache
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Portfolio/obj/Debug/netcoreapp2.2/Portfolio.RazorCoreGenerate.cache
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Portfolio/obj/Debug/netcoreapp2.2/Razor/Views/Home/Home.g.cshtml.cs
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Portfolio/obj/Debug/netcoreapp2.2/Portfolio.RazorTargetAssemblyInfo.cs
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Portfolio/obj/Debug/netcoreapp2.2/Portfolio.Views.pdb
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Portfolio/obj/Debug/netcoreapp2.2/Portfolio.csproj.CopyComplete
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Portfolio/obj/Debug/netcoreapp2.2/Razor/Views/Home/Contact.g.cshtml.cs
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Portfolio/obj/Debug/netcoreapp2.2/Razor/Views/Home/Projects.g.cshtml.cs

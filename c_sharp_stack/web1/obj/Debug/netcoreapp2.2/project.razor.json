@@ -2966,8 +2966,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/Views/Home/HiThere111.cshtml",
-      "TargetPath": "Views/Home/HiThere111.cshtml",
+      "FilePath": "/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/Views/Home/Index.cshtml",
+      "TargetPath": "Views/Home/Index.cshtml",
       "FileKind": "mvc"
     }
   ],

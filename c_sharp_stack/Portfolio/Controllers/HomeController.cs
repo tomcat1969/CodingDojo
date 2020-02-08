@@ -11,28 +11,28 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Portfolio
 {
-    public class HomeController
+    public class HomeController : Controller
     {
         
         [HttpGet("")]
-
-        public string Index()
+        public ViewResult Home()
         {
-            return "This is my Index";
+            ViewBag.Example = "123";
+            return View();
         }
 
         [HttpGet("projects")]
 
-        public string Projects()
+        public ViewResult Projects()
         {
-            return "These are my projects";
+            return View();
         }
 
         [HttpGet("contact")]
 
-        public string Contact()
+        public ViewResult Contact()
         {
-            return "This is my Contact";
+            return View();
         }
     }
     

@@ -1,0 +1,15 @@
+ul{
+    list-style: none;
+    overflow: hidden;
+    width: 400px;
+    height: 40px;
+    
+}
+li{
+    float: left;
+    margin-right: 20px;
+}
+
+h1{
+    color:blue;
+}

@@ -20,5 +20,5 @@
 /Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/obj/Debug/netcoreapp2.2/web1.RazorTargetAssemblyInfo.cs
 /Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/obj/Debug/netcoreapp2.2/web1.Views.pdb
 /Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/obj/Debug/netcoreapp2.2/web1.csproj.CopyComplete
-/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/obj/Debug/netcoreapp2.2/Razor/Views/Home/HiThere111.g.cshtml.cs
 /Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/obj/Debug/netcoreapp2.2/Razor/Views/Shared/HiThere.g.cshtml.cs
+/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/web1/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
