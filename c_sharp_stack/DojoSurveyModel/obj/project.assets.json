@@ -12077,11 +12077,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Dojo_dotnet/DojoSurveyModel/DojoSurveyModel.csproj",
+      "projectUniqueName": "/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/DojoSurveyModel/DojoSurveyModel.csproj",
       "projectName": "DojoSurveyModel",
-      "projectPath": "/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Dojo_dotnet/DojoSurveyModel/DojoSurveyModel.csproj",
+      "projectPath": "/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/DojoSurveyModel/DojoSurveyModel.csproj",
       "packagesPath": "/Users/linhuang/.nuget/packages/",
-      "outputPath": "/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/Dojo_dotnet/DojoSurveyModel/obj/",
+      "outputPath": "/Users/linhuang/Desktop/CodingDojo/c_sharp_stack/DojoSurveyModel/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
