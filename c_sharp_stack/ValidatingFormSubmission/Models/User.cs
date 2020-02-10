@@ -7,6 +7,7 @@ namespace ValidatingFormSubmission.Models
     {
         [Required]
         [MinLength(4)]
+        [NoZNames]
         public string Firstname { get; set; }
 
         [Required]
@@ -25,4 +26,18 @@ namespace ValidatingFormSubmission.Models
         [DataType(DataType.Password)]
         public string Password { get; set; }
     }
+
+
+
+
+
+    public class NoZNamesAttribute : ValidationAttribute
+{
+    protected override ValidationResult IsValid(object value, ValidationContext validationContext)
+    {
+        if (((string)value).ToLower()[0] == 'z')
+            return new ValidationResult("No names that start with Z allowed!");
+        return ValidationResult.Success;
+    }
+}
 }
