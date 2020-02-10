@@ -3,31 +3,47 @@
 }
 
  <div class="wraper">
-        <form action="/result" method="post" name="survey" >
-            <fieldset>
-                <legend></legend>
-                <p>Your Name : <input type="text" name="name"/></p>
-                <p>Dojo Location : 
-                    <select name="location">
+     @model Survey
+        <form asp-action="Create" asp-controller="Home" method="post" >
+            
+                
+                <p><span asp-validation-for="Name"></span></p>
+                <p><label asp-for="Name"></label></p>
+                <p><input asp-for="Name"></p>
+
+                
+                 <p><span asp-validation-for="Location"></span></p>
+                 <p><label asp-for="Location"></label></p>
+
+                <p>
+                    <select asp-for="Location">
                         <option value="seattle">seattle</option>
                         <option value="san jose">San Jose</option>
                         <option value="new york">New York</option>
                         <option value="la">Los Angeles</option>
                     </select>
                 </p>
-                <p>Favorite Language : 
-                     <select name="language">
+
+
+                <p><span asp-validation-for="Language"></span></p>
+                 <p><label asp-for="Language"></label></p>
+                <p>
+                     <select asp-for="Language">
                         <option value="c#">C#</option>
                         <option value="java">Java</option>
                         <option value="python">Python</option>
                         <option value="javascript">Javascript</option>
                     </select>
                 </p>
-                <p>Comment (Optional) : </p>
-                <textarea rows="5" cols="80" name="comment"> </textarea>
+
+
+                 <p><span asp-validation-for="Comment"></span></p>
+                 <p><label asp-for="Comment"></label></p>
+                
+                <textarea asp-for="Comment" rows="5" cols="80" > </textarea>
                 <p><button>Submit</button></p>
 
-            </fieldset>
+           
         </form>
 
     </div>

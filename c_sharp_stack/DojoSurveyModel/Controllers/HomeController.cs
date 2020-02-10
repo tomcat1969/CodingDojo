@@ -36,6 +36,36 @@ namespace DojoSurveyModel.Controllers
             return RedirectToAction("Result",s1);
         }
 
+        ///////////////////////////////////
+        [HttpPost("user/create")]
+        public IActionResult Create(Survey survey)
+        {
+            if(ModelState.IsValid)
+            {
+                // do somethng!  maybe insert into db?  then we will redirect
+                // Survey s1 = new Survey();
+                // s1.Name = name;
+                // s1.Location = location;
+                // s1.Language = language;
+                // s1.Comment = comment;
+                // Console.WriteLine("%%%%%%" + location);
+                // Console.WriteLine("$$$$$$$$$"+language);
+                // Console.WriteLine("$$$$$$$$$"+s1.Language);
+                return RedirectToAction("Result",survey);
+                
+                
+            }
+            else
+            {
+                // Oh no!  We need to return a ViewResponse to preserve the ModelState, and the errors it now contains!
+                return View("Index");
+            }
+        }
+
+
+
+        ///////////////////////////////////
+
         public IActionResult Result(Survey s1)
         {
             return View(s1);        
