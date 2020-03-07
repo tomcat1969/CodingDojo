@@ -19,10 +19,10 @@ const onSubmitHandler = event => {
 }
 const changeHandler = e => {
     e.preventDefault()
-    boxState.color = e.target.value
+    //boxState.color = e.target.value
     setBoxState({
         ...boxState,
-        // [e.target.name] : e.target.value
+         [e.target.name] : e.target.value
     })
 
 
@@ -46,4 +46,4 @@ return(
 
 }
 
-export default Generator
+// export default Generator
