@@ -12,6 +12,7 @@ const onSubmitHandler = event => {
     event.preventDefault();
     boxState.boxes.push(boxState.color)
     console.log(boxState)
+    boxState.color = ''
     setBoxState({
         ...boxState
     }) 
@@ -19,10 +20,10 @@ const onSubmitHandler = event => {
 }
 const changeHandler = e => {
     e.preventDefault()
-    //boxState.color = e.target.value
+    boxState.color = e.target.value
     setBoxState({
         ...boxState,
-         [e.target.name] : e.target.value
+        //  [e.target.name] : e.target.value
     })
 
 
@@ -33,8 +34,8 @@ const colorBoxes = boxState.boxes.map(item => <div className={styles.boxy} style
 return(
             <div>
                 <form onSubmit={onSubmitHandler}>
-                    <p>color : <input type="text" name="color" onChange={changeHandler}/>
-                    
+                    <p>color : <input type="text" name="color" onChange={changeHandler} value={boxState.color}/>
+                    <p>length : <input type="number" name="length" onChange=</p></p>
                        <button >Add</button>
                     </p>
                 </form>
