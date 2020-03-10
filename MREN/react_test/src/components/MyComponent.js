@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 // const MyComponent = props => {
 //     const onClickHandler = e => {
 //         alert("You have clicked the button");
