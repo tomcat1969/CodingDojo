@@ -1,30 +1,49 @@
 import React, { useState } from 'react';
 
 export const Tabs = props => {
-    // const [ tabState, setTabState ] = useState({
-    //     items: props.items,
-    //     contents: props.contents
+    const [state,setState] = useState({
+        tabs:[
+            {title:"1",content: "11111111"},
+            {title:"2",content: "222222222"},
+            {title:"3",content: "333333333"},
+            {title:"4",content: "444444444"},
+            {title:"5",content: "555555555"}
+        ],
+        content:""
        
-    // })
 
-    const onClickHandler = (e,value) => {
+    })
+    
+    const handlerOnClick = (e,index) => {
+       
         
-        alert(props.contents[value])
+         //alert(state.tabs[index].content)
+         //alert(state.tabs[index].content)
+         
+         
+         setState({
+             ...state,
+             content: state.tabs[index].content
+         })
+        //  tate.tabs[index].content
+         
     }
 
-    const buttonStyles = {
-        border: '0',
-        padding: '12px 15px',
-        background: 'black',
-        fontSize: '1em',
-        color: 'white',
-        fontWeight: 'bold'   
-        
-    };
 
-    return props.items.map((item, index)=>{
-                       return <button style={buttonStyles} onClick={(e) => onClickHandler(e, index)}>{item}</button>
+    return (
+        <div>
+            {state.tabs.map(
+                ({title,content},index) => 
+                       <button key={index} onClick={(e)=> {handlerOnClick(e,index)}}>{title}</button>
+                )}
+            {state.content}    
+        </div>
+    )
+
+
+}
+    
+   
                
     
-    });
-}
+   
